@@ -1,0 +1,13 @@
+<head>
+    <title>Reproduction Testcase</title>
+    <script type="text/javascript" src="stream.js"></script>
+</head>
+<body>
+    <h1>Reproduction Testcase</h1>
+
+    <p>The reproduction code reads the files in chunks using file.slice. In this testcase we read as a stream using file.stream().</p>
+
+    <p>Upload a part file</p>
+
+    <input multiple type="file" accept=".step,.stp,.sldprt,.stl,.dxf,.ipt,.x_t,.x_b,.3dxml,.catpart,.prt" onchange="processInput(this)" value="Upload Model Files">
+</body>

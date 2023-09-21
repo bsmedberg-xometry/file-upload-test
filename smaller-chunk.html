@@ -1,0 +1,13 @@
+<head>
+    <title>Reproduction Testcase</title>
+    <script type="text/javascript" src="smaller-chunk.js"></script>
+</head>
+<body>
+    <h1>Potential fix: smaller chunk</h1>
+
+    <p>The reproduction code uses a chunk size of 2,097,152 bytes. In this testcase we try a smaller chunk size of 65,536 bytes.</p>
+
+    <p>Upload a part file</p>
+
+    <input multiple type="file" accept=".step,.stp,.sldprt,.stl,.dxf,.ipt,.x_t,.x_b,.3dxml,.catpart,.prt" onchange="processInput(this)" value="Upload Model Files">
+</body>
